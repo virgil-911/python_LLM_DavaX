@@ -165,27 +165,6 @@ Aplicația include 12 cărți clasice:
 - Verifică că portul 8501 este liber
 - Încearcă: `streamlit run app.py --server.port 8502`
 
-### Rate limiting OpenAI
-- Folosește GPT-3.5-turbo în loc de GPT-4 (mai ieftin)
-- Modifică în cod: `CHAT_MODEL = "gpt-3.5-turbo"`
-
-## Costuri Estimate
-
-Pentru 100 de conversații tipice:
-- GPT-4o-mini: ~$0.50 - $1.00
-- Embeddings: ~$0.01
-- Total: Sub $1.50
-
-## Dezvoltare Viitoare
-
-Posibile îmbunătățiri:
-- [ ] Adăugare mai multe cărți în baza de date
-- [ ] Salvare istoric conversații
-- [ ] Export recomandări în PDF
-- [ ] Sistem de rating pentru recomandări
-- [ ] Suport multilingv complet
-- [ ] Integrare cu API-uri de librării
-
 ## Licență
 
 MIT License - Vezi LICENSE pentru detalii
